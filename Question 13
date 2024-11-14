@@ -3,7 +3,7 @@ Question:
 Fill in the blank to issue a JWT in C# after an OAuth authentication flow. The token should contain the user's ID and role information.
 
 csharp
-Copy code
+
 var claims = new[] {
     new Claim(ClaimTypes.NameIdentifier, userId.ToString()),
     new Claim(ClaimTypes.Role, userRole)
