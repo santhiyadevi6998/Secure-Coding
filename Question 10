@@ -1,0 +1,7 @@
+Session Management in ASP.NET MVC
+Question:
+Fill in the blank to regenerate a session ID after a user logs in to prevent session fixation attacks.
+
+csharp
+Copy code
+Session.__________();  // Fill in the blank
