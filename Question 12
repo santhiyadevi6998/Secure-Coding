@@ -1,0 +1,12 @@
+SQL Server Transparent Data Encryption (TDE)
+Question:
+Fill in the blank to enable Transparent Data Encryption (TDE) in SQL Server for a database. This will help protect sensitive data at rest.
+
+sql
+Copy code
+CREATE DATABASE MyDatabase
+    ON PRIMARY 
+    (NAME = 'MyDatabase_data', FILENAME = 'C:\MyDatabase.mdf')
+    LOG ON 
+    (NAME = 'MyDatabase_log', FILENAME = 'C:\MyDatabase.ldf')
+    WITH ENCRYPTION;  // Fill in the blank to enable encryption
