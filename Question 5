@@ -3,7 +3,7 @@ Question:
 Fill in the blank to enforce the use of HTTPS for all incoming requests in an ASP.NET application.
 
 csharp
-Copy code
+
 [__________] // Fill in the blank
 public class SecureController : Controller
 {
