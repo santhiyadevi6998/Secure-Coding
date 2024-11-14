@@ -3,7 +3,6 @@ Question:
 Fill in the blank to securely hash a user's password using Bcrypt in PHP.
 
 php
-Copy code
 $password = "userPassword123";
 $hashedPassword = password_hash($password, __________);  // Fill in the blank
 echo $hashedPassword;
