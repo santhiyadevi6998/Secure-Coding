@@ -1,9 +1,3 @@
-# Secure Coding Challenges
-
-This repository contains a set of coding challenges focused on **secure coding** practices to help developers learn how to prevent common security vulnerabilities.
-
-## Challenges
-
 ### 1. **SQL Injection Prevention (C#)**
 
 **Question:**  
