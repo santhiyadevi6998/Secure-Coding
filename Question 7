@@ -3,7 +3,7 @@ Question:
 Fill in the blank to secure an API in C# by adding JWT Bearer authentication using the correct authority and audience.
 
 csharp
-Copy code
+
 services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         .AddJwtBearer(options =>
         {
