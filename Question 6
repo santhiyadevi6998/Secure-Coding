@@ -1,0 +1,11 @@
+Cross-Site Request Forgery (CSRF) Protection (ASP.NET MVC)
+Question:
+Fill in the blank to add the CSRF protection token in an ASP.NET MVC form.
+
+csharp
+Copy code
+@using (Html.BeginForm())
+{
+    @Html.__________()  // Fill in the blank
+    <input type="submit" value="Submit" />
+}
