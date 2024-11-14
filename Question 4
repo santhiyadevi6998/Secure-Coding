@@ -1,0 +1,13 @@
+Preventing XSS (C#)
+Question:
+Fill in the blank to encode user input in C# to prevent Cross-Site Scripting (XSS) vulnerabilities when displaying user input on a webpage.
+
+csharp
+Copy code
+@__________(userInput)  // Fill in the blank
+Expected Answer:
+The blank should be filled with Html.Encode.
+
+Explanation:
+The @Html.Encode(userInput) method ensures that any special characters in the user input are encoded to HTML entities. This prevents any injected JavaScript or HTML from being executed, protecting against XSS attacks.
+
