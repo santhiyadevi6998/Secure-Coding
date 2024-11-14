@@ -1,0 +1,11 @@
+API Rate Limiting Implementation (ASP.NET Core)
+Question:
+Fill in the blank to apply API rate limiting in an ASP.NET Core application using the X-RateLimit-Limit header.
+
+csharp
+Copy code
+app.Use(async (context, next) =>
+{
+    context.Response.Headers["X-RateLimit-Limit"] = "100";  // Fill in the blank: maximum number of requests allowed
+    await next.Invoke();
+});
