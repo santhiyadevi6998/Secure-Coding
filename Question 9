@@ -1,0 +1,7 @@
+SQL Injection Prevention with ORM (C# - Entity Framework)
+Question:
+Fill in the blank to use Entity Framework in C# to query the database safely, preventing SQL Injection.
+
+csharp
+
+var user = dbContext.Users.Where(u => u.Username == __________).FirstOrDefault();  // Fill in the blank
