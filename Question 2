@@ -1,5 +1,9 @@
-/*Fill in the blank to write a C# function that checks if a user input string contains only alphanumeric characters (letters and numbers). If not, throw an exception.*/
+Input Validation (C#)
+Question:
+Fill in the blank to write a C# function that checks if a user input string contains only alphanumeric characters (letters and numbers). If not, throw an exception.
 
+csharp
+Copy code
 public void ValidateUserInput(string userInput)
 {
     if (!Regex.IsMatch(userInput, @"^[__________]*$"))  // Fill in the blank
