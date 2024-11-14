@@ -8,6 +8,3 @@ csharp
 Expected Answer:
 The blank should be filled with Html.Encode.
 
-Explanation:
-The @Html.Encode(userInput) method ensures that any special characters in the user input are encoded to HTML entities. This prevents any injected JavaScript or HTML from being executed, protecting against XSS attacks.
-
