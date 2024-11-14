@@ -3,5 +3,5 @@ Question:
 Fill in the blank to use Entity Framework in C# to query the database safely, preventing SQL Injection by using LINQ.
 
 csharp
-Copy code
+
 var user = context.Users.Where(u => u.Email == __________).FirstOrDefault();  // Fill in the blank
