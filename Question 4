@@ -3,7 +3,7 @@ Question:
 Fill in the blank to encode user input in C# to prevent Cross-Site Scripting (XSS) vulnerabilities when displaying user input on a webpage.
 
 csharp
-Copy code
+
 @__________(userInput)  // Fill in the blank
 Expected Answer:
 The blank should be filled with Html.Encode.
