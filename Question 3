@@ -6,9 +6,4 @@ php
 $password = "userPassword123";
 $hashedPassword = password_hash($password, __________);  // Fill in the blank
 echo $hashedPassword;
-Expected Answer:
-The blank should be filled with PASSWORD_BCRYPT.
-
-Explanation:
-The password_hash function uses the Bcrypt algorithm (PASSWORD_BCRYPT) to securely hash the password. The hashed password is irreversible, ensuring that the original password cannot be retrieved.
 
