@@ -3,7 +3,6 @@ Question:
 Fill in the blank to validate the file type of a file upload in ASP.NET by checking the MIME type.
 
 csharp
-Copy code
 if (file.ContentType == "__________")  // Fill in the blank
 {
     // Process the file
